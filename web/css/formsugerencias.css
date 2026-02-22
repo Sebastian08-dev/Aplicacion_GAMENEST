@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary-color: #2C2C3E; /* Color principal */
+    --secondary-color: #1C1C28; /* Color de las letras */
+    --background-color: #FFFFFF; /* Color blanco para el fondo */
+    --input-background-color: #F9F9F9; /* Color de fondo de los inputs */
+    --input-border-color: #DDDDDD; /* Color del borde de los inputs */
+    --button-background-color: #2C2C3E; /* Color del botón */
+    --button-text-color: #FFFFFF; /* Color del texto del botón */
+    --button-active-color: #28a745; /* Color del botón cuando se presiona */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    background-color: var(--background-color);
+    border: 1px solid var(--input-border-color);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 90%;
+    max-width: 800px;
+    box-sizing: border-box;
+}
+
+.form-container h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--secondary-color);
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    background-color: var(--input-background-color);
+    font-size: 1rem;
+    color: var(--secondary-color);
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--button-background-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #2C2C3E;
+}
+
+button[type="submit"]:active {
+    background-color: var(--button-active-color);
+}
+
+.info {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: var(--secondary-color);
+}
+
+.info strong {
+    display: block;
+    margin-top: 1rem;
+    color: var(--primary-color);
+}
+

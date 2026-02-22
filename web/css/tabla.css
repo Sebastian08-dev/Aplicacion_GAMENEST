@@ -1,0 +1,40 @@
+.purchase-container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.purchase-container h2 {
+    text-align: center;
+    color: #f1601c;
+    margin-bottom: 20px;
+}
+
+.purchase-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.purchase-table th, .purchase-table td {
+    padding: 12px;
+    border-bottom: 1px solid #444;
+}
+
+.purchase-table th {
+    background-color: #444;
+    color: #fff;
+}
+
+.purchase-table td {
+    background-color: #333;
+    color: #ddd;
+}
+
+.purchase-table tr:hover {
+    background-color: #444;
+}
+
+

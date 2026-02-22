@@ -1,0 +1,38 @@
+.btn{
+  border: none; 
+  color: white; 
+  padding: 7px 10px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: inline-flex;
+}
+
+.btn i {
+  margin-right: 1px;
+}
+
+.success {
+    margin-right: 5px;
+    background-color: #04AA6D;
+    transition: transform 0.3s ease-in-out;
+} 
+.success:hover {
+    background-color: #46a049;
+}
+
+.success:active{
+    transform: scale(0.9);
+    background-color: #46a049;
+}
+
+.danger {
+    background-color: #f44336;
+    transition: transform 0.3s ease-in-out;
+} 
+.danger:hover {
+    background: #da190b;
+}
+
+.danger:active{
+    transform: scale(0.9);
+}

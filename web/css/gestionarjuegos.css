@@ -1,0 +1,87 @@
+.ContenedorAgregarJuego {
+    margin: 20px;
+    background-color: #f0f0f0; /* Fondo claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ContenedorAgregarJuego h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333; /* Color de texto oscuro */
+}
+
+.ContenedorAgregarJuego form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ContenedorAgregarJuego label {
+    margin-bottom: 5px;
+    color: #333; /* Color de texto oscuro */
+}
+
+.ContenedorAgregarJuego input[type="text"],
+.ContenedorAgregarJuego input[type="date"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ContenedorAgregarJuego button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ContenedorAgregarJuego button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.ContenedorDetalle {
+    background-color: #f0f0f0; /* Fondo claro */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ContenedorDetalle label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Color de texto oscuro */
+}
+
+.ContenedorDetalle input[type="text"],
+.ContenedorDetalle input[type="date"],
+.ContenedorDetalle textarea,
+.ContenedorDetalle select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.ContenedorDetalle textarea {
+    resize: vertical;
+}
+
+.ContenedorDetalle input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ContenedorDetalle input[type="submit"]:hover {
+    background-color: #45a049;
+}

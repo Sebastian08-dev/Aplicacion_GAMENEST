@@ -1,0 +1,189 @@
+.carrusel-body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/fondoG1.jpg); /* Reemplaza 'background.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;  
+}
+
+.carrusel h4{
+    margin: 0;
+    padding: 0;
+} 
+.carrusel h2{
+    margin: 0;
+    padding: 0;
+} 
+.carrusel small{
+    margin: 0;
+    padding: 0;
+}
+
+.carrusel a{
+    margin: 0;
+    padding: 0;
+}
+
+.carrusel a{
+    text-decoration: none;
+}
+
+.carrusel{
+    width: 100%;
+    margin: 0px 0px;
+    align-items: center;
+    
+}
+
+
+.carrusel h4 {
+    font-size: 20px;
+    line-height: 38px;
+    padding-bottom: 58px;
+    opacity: .9;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.carrusel-lista{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 380px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+
+.carrusel-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+
+.carousel{
+    position: relative;
+    width: 210px;
+    padding: 0px 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+
+.carousel h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 15px;
+    line-height: 23px;
+    color: #ffffff;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0px;
+}
+
+.carousel h4 small{
+    font-size: 15px;
+    display: block;
+}
+
+.carousel a img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+    transition: .3s ease-in-out;
+}
+
+.carousel a img:hover{
+    opacity: .85;
+}
+
+.carrusel-arrow{
+    border-radius: 30px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.carrusel-arrow:focus{
+    outline: 0;
+}
+
+.carrusel-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,0.7);
+}
+
+.carrusel-prev{
+    left: 0px;
+}
+
+.carrusel-next{
+    right: 0px;
+}
+
+.name-game{
+    background-color: #0000004D;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 200px;
+    height: 60px;
+}
+
+.name-game a h5 {
+    font-size: 18px;
+    color: #FFFFFF99;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px; 
+    margin: 0;
+}
+
+.name-game a h5:hover{
+    text-decoration: none;
+    color: #A91D3A;
+}
+
+.name-game p{
+    font-size: 10px;
+    color: #FFFFFF99;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .carousel {
+        width: 250px;
+    }
+
+    .carousel a img {
+        width: 200px;
+    }
+
+    .carrusel {
+        margin: 0px 60px;
+    }
+}
+
+
