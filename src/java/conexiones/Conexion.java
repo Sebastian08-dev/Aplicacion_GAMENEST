@@ -11,8 +11,8 @@ import modelo.dao.juegoDAO;
 public class Conexion {
     private Connection con = null;
     private String url = "jdbc:mysql://mysql-apptesting.alwaysdata.net/apptesting_gamenest?useTimeZone=true&serverTimezone=UTC&autoReconnect=true";
-    private String user = "root";
-    private String pass = "";
+    private String user = "apptesting_gamenest";
+    private String pass = "venta2025";
     private String driver = "com.mysql.cj.jdbc.Driver";
     
 
