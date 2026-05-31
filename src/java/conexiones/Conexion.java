@@ -10,10 +10,11 @@ import modelo.dao.juegoDAO;
 
 public class Conexion {
     private Connection con = null;
-    private String url = "jdbc:mysql://localhost:3307/bdcarritocompras?useTimeZone=true&serverTimezone=UTC&autoReconnect=true";
+    private String url = "jdbc:mysql://mysql-apptesting.alwaysdata.net/apptesting_gamenest?useTimeZone=true&serverTimezone=UTC&autoReconnect=true";
     private String user = "root";
     private String pass = "";
     private String driver = "com.mysql.cj.jdbc.Driver";
+    
 
     public Connection getConection() throws SQLException {
         try {
