@@ -8,8 +8,8 @@ public class correo {
 
     private static final String SMTP_HOST = "smtp.gmail.com";
     private static final String SMTP_PORT = "587";
-    private static final String SMTP_USERNAME = "misajsebas19@gmail.com"; // El email
-    private static final String SMTP_PASSWORD = "kshw lecm klmw kapq"; // contraseña de aplicación generada
+    private static final String SMTP_USERNAME = "katmisajel8420@gmail.com"; // El email
+    private static final String SMTP_PASSWORD = "yyqu ygdc kuei dhgd"; // contraseña de aplicación generada
 
     public static void enviarCorreoBienvenida(String toEmail, String nombre) {
         Properties props = new Properties();

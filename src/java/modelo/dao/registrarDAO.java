@@ -18,7 +18,7 @@ public class registrarDAO {
     // Método para registrar un nuevo usuario en la base de datos
     public boolean registrarUsuario(Usuario nuevoUsuario) {
         boolean registrado = false; // Se inicializa como falso el estado de registro
-        String query = "INSERT INTO Usuario (Dni, Nombres, Direccion, Email, Contraseña, Rol) VALUES (?, ?, ?, ?, ?, ?)"; // Consulta SQL para insertar un nuevo usuario en la base de datos
+        String query = "INSERT INTO usuario (Dni, Nombres, Direccion, Email, Contraseña, Rol) VALUES (?, ?, ?, ?, ?, ?)"; // Consulta SQL para insertar un nuevo usuario en la base de datos
         try (Connection con = conexion.getConection(); // Se obtiene una conexión a la base de datos
              PreparedStatement ps = con.prepareStatement(query)) { // Se prepara la consulta SQL
             // Se establecen los parámetros de la consulta con los datos del nuevo usuario
